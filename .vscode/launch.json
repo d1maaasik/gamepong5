@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug gamepong",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/gamepong.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",  // Отладчик GDB
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerPath": "C:/mingw/bin/gdb.exe",  // Убедитесь, что путь указан правильно
+            "preLaunchTask": "build",
+            "logging": {
+                "moduleLoad": false
+            }
+        }
+    ]
+}

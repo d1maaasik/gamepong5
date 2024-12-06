@@ -1,0 +1,6 @@
+# ninja log v6
+2	543	7552027956831250	CMakeFiles/gamepong.dir/src/Ball.cpp.obj	609e29cbe4e86029
+12	548	7552027956940035	CMakeFiles/gamepong.dir/src/Paddle.cpp.obj	4184cc8dcf0b3799
+15	582	7552027956960089	CMakeFiles/gamepong.dir/src/main.cpp.obj	22f850d545f09f22
+8	681	7552027956895875	CMakeFiles/gamepong.dir/src/Game.cpp.obj	a7b47be555196b3a
+681	783	7552027963620789	gamepong.exe	2e227c967e052acc
